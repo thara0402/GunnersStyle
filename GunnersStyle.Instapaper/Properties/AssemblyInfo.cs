@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("GunnersStyle.Instapaper.Client")]
+[assembly: AssemblyTitle("GunnersStyle.Instapaper")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GunnersStyle.Instapaper.Client")]
+[assembly: AssemblyProduct("GunnersStyle.Instapaper")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 次の GUID は、このプロジェクトが COM に公開される場合の、typelib の ID です
-[assembly: Guid("45efddf7-e21d-4736-a16b-e239f684e37b")]
+[assembly: Guid("a2f81231-9aa9-488f-9536-4475d0c90375")]
 
 // アセンブリのバージョン情報は、以下の 4 つの値で構成されています:
 //

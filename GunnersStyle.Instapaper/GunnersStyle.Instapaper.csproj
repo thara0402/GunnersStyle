@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C706FC79-76C9-466D-A0F6-031AAC1EE65E}</ProjectGuid>
+    <ProjectGuid>{34DF1A0F-D74A-4FCF-8ABB-11AE886137FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GunnersStyle.Instapaper.Client</RootNamespace>
-    <AssemblyName>GunnersStyle.Instapaper.Client</AssemblyName>
+    <RootNamespace>GunnersStyle.Instapaper</RootNamespace>
+    <AssemblyName>GunnersStyle.Instapaper</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

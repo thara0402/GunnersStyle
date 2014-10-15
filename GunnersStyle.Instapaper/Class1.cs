@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GunnersStyle.Instapaper.Client
+namespace GunnersStyle.Instapaper
 {
     public class Class1
     {
