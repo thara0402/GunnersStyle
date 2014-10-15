@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{40B32D
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PCLTest", "PCLTest\PCLTest.csproj", "{A897D630-8672-4426-957A-296CB8E112BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunnersStyle.Instapaper", "GunnersStyle.Instapaper\GunnersStyle.Instapaper.csproj", "{45F3FD42-6AC8-4208-B6A3-2233A0956809}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A897D630-8672-4426-957A-296CB8E112BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A897D630-8672-4426-957A-296CB8E112BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A897D630-8672-4426-957A-296CB8E112BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A897D630-8672-4426-957A-296CB8E112BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F3FD42-6AC8-4208-B6A3-2233A0956809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F3FD42-6AC8-4208-B6A3-2233A0956809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F3FD42-6AC8-4208-B6A3-2233A0956809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F3FD42-6AC8-4208-B6A3-2233A0956809}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
