@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/thara0402/GunnersStyle/blob/master/LICENSE.md/</licenseUrl>
+    <projectUrl>https://github.com/thara0402/GunnersStyle/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <language>en-US</language>
+    <description>$description$</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>GunnersStyle</tags>
+  </metadata>
+</package>

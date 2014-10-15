@@ -7,9 +7,9 @@ using System.Runtime.InteropServices;
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
 [assembly: AssemblyTitle("GunnersStyle.Instapaper")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Instapaper Simple API Client.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Toshiyuki Hara")]
 [assembly: AssemblyProduct("GunnersStyle.Instapaper")]
 [assembly: AssemblyCopyright("Copyright (C)  2014")]
 [assembly: AssemblyTrademark("")]
