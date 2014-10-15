@@ -10,10 +10,10 @@ namespace GunnersStyle.Instapaper
     public static class InstapaperHelper
     {
         /// <summary>
-        /// 
+        /// Authentication
         /// </summary>
-        /// <param name="userName"></param>
-        /// <param name="password"></param>
+        /// <param name="userName">UserName</param>
+        /// <param name="password">Password</param>
         /// <returns></returns>
         public static async Task AuthenticateAsync(string userName, string password)
         {
@@ -32,18 +32,16 @@ namespace GunnersStyle.Instapaper
             }
             catch (Exception)
             {
-                // ステータスコードによって、例外処理を入れる?
-                // https://www.instapaper.com/api/simple
                 throw;
             }
         }
 
         /// <summary>
-        /// 
+        /// Adding URLs to an Instapaper account
         /// </summary>
-        /// <param name="userName"></param>
-        /// <param name="password"></param>
-        /// <param name="uri"></param>
+        /// <param name="userName">UserName</param>
+        /// <param name="password">Password</param>
+        /// <param name="uri">URL</param>
         /// <returns></returns>
         public static async Task AddAsync(string userName, string password, string uri)
         {
@@ -60,8 +58,6 @@ namespace GunnersStyle.Instapaper
                     var res = await client.PostAsync("https://www.instapaper.com/api/add", content);
                     res.EnsureSuccessStatusCode();
                 }
-
-//                PasswordVaultHelper.Save(userName, password);
             }
             catch (ArgumentException)
             {
@@ -72,7 +68,7 @@ namespace GunnersStyle.Instapaper
                 // See http://go.microsoft.com/fwlink/?linkid=106663&Version=4.7.60408.0&File=System.Net.dll&Key=net_WebHeaderInvalidControlChars
                 // Parameter name: name
 
-                // WP8.1では成功しているにも関わらず、エラーが返されてしまう・・・
+                // WP8.1では成功しているにも関わらず、エラーが返されてしまうので、正常終了として扱う。
                 return;
             }
             catch (Exception)
