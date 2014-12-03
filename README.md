@@ -7,8 +7,8 @@ Aesthetics unchanged, Belief not to bend.
 ### Instapaper Simple API Client Library.
 
     Install-Package GunnersStyle.Instapaper
-#### Add URL:
+#### Adding URLs to an Instapaper account:
 
 ```C#
-await InstapaperHelper.AddAsync(userName, password, uri);
+await InstapaperHelper.AddAsync("userName", "password", "uri");
 ```
