@@ -4,7 +4,7 @@ Aesthetics unchanged, Belief not to bend.
 
 GunnersStyle.Instapaper
 ------
-[Instapaper Simple API](http://www.instapaper.com/api/simple/) Client Library.
+[Instapaper Simple API](https://www.instapaper.com/api/simple) Client Library.
 
     Install-Package GunnersStyle.Instapaper
 #### Adding URLs to an Instapaper account:
